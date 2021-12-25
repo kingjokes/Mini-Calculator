@@ -9,7 +9,7 @@ const displayButtonValue = (value) =>{
 
     //if the delete button was clicked
     if(value==='delete') {
-        if(document.getElementById('display').value.length===0) return //if there is no value yet in the calculator
+        if(document.getElementById('display').value.length===0) return //if there is no value  in the calculator
 
         //if the length of values in the calculator is 1
         if(document.getElementById('display').value.length===1) return document.getElementById('display').value=''
